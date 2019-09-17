@@ -14,8 +14,8 @@ import inc_const as const
 import inc_cfg as inc
 
 # Vars
-G_EXE = ""		# pjsua executable path
-G_INUNIX = False	# flags that test is running in Unix
+G_EXE = "/usr/bin/pjsua"		# pjsua executable path
+G_INUNIX = True	# flags that test is running in Unix
 
 
 # Usage string

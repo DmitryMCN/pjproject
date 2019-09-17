@@ -1,0 +1,1469 @@
+output/pjsua-x86_64-unknown-linux-gnu/main.o: ../src/pjsua/main.c ../src/pjsua/pjsua_app.h \
+ ../src/pjsua/pjsua_app_common.h \
+ /var/www/well/tests/pjsip/include/pjsua-lib/pjsua.h \
+ /var/www/well/tests/pjsip/include/pjsip.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_types.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_config.h \
+ /var/www/well/tests/pjlib/include/pj/types.h \
+ /var/www/well/tests/pjlib/include/pj/config.h \
+ /var/www/well/tests/pjlib/include/pj/compat/cc_gcc.h \
+ /var/www/well/tests/pjlib/include/pj/compat/os_auto.h \
+ /var/www/well/tests/pjlib/include/pj/compat/m_auto.h \
+ /var/www/well/tests/pjlib/include/pj/compat/size_t.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stddef.h \
+ /var/www/well/tests/pjlib/include/pj/config_site.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_autoconf.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_errno.h \
+ /var/www/well/tests/pjlib/include/pj/errno.h \
+ /var/www/well/tests/pjlib/include/pj/compat/errno.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stdarg.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_uri.h \
+ /var/www/well/tests/pjlib/include/pj/list.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/scanner.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/types.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/config.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/scanner_cis_bitwise.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_tel_uri.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_msg.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_multipart.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_parser.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_event.h \
+ /var/www/well/tests/pjlib/include/pj/timer.h \
+ /var/www/well/tests/pjlib/include/pj/lock.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_module.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_endpoint.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transport.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_resolve.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/resolver.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/dns.h \
+ /var/www/well/tests/pjlib/include/pj/sock.h \
+ /var/www/well/tests/pjlib/include/pj/ioqueue.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_util.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transport_udp.h \
+ /var/www/well/tests/pjlib/include/pj/sock_qos.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transport_loop.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transport_tcp.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transport_tls.h \
+ /var/www/well/tests/pjlib/include/pj/pool.h \
+ /var/www/well/tests/pjlib/include/pj/ssl_sock.h \
+ /var/www/well/tests/pjlib/include/pj/string.h \
+ /var/www/well/tests/pjlib/include/pj/compat/string.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/bits/string.h \
+ /usr/include/bits/string2.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/stdlib.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/sys/types.h \
+ /usr/include/time.h /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /var/www/well/tests/pjsip/include/pjsip/sip_auth.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_auth_msg.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_auth_aka.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transaction.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_ua_layer.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_dialog.h \
+ /var/www/well/tests/pjlib/include/pj/assert.h \
+ /var/www/well/tests/pjlib/include/pj/compat/assert.h \
+ /usr/include/assert.h /var/www/well/tests/pjmedia/include/pjmedia.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/alaw_ulaw.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/types.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/config.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/config_auto.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/avi_stream.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/clock.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/event.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/audiodev.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-audiodev/config.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-audiodev/errno.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/format.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/frame.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/signatures.h \
+ /var/www/well/tests/pjlib/include/pj/os.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/bidirectional.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/circbuf.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/codec.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/conference.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/converter.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/delaybuf.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/echo.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/echo_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/endpoint.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/sdp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/errno.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-audiodev/audiodev.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/g711.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/types.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/config.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/config_auto.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/jbuf.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/master_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/mem_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/null_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/plc.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/resample.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/rtcp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/rtcp_xr.h \
+ /var/www/well/tests/pjlib/include/pj/math.h \
+ /var/www/well/tests/pjlib/include/pj/compat/high_precision.h \
+ /usr/include/math.h /usr/include/bits/huge_val.h \
+ /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+ /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+ /usr/include/bits/mathinline.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/rtp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/sdp_neg.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/silencedet.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/sound.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/sound_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/splitcomb.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/stereo.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/stream.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/rtcp_fb.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/vid_codec.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/stream_common.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/tonegen.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport_adapter_sample.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport_ice.h \
+ /var/www/well/tests/pjnath/include/pjnath/ice_strans.h \
+ /var/www/well/tests/pjnath/include/pjnath/ice_session.h \
+ /var/www/well/tests/pjnath/include/pjnath/types.h \
+ /var/www/well/tests/pjnath/include/pjnath/config.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_session.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_msg.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_auth.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_config.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_transaction.h \
+ /var/www/well/tests/pjnath/include/pjnath/errno.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_sock.h \
+ /var/www/well/tests/pjnath/include/pjnath/turn_sock.h \
+ /var/www/well/tests/pjnath/include/pjnath/turn_session.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport_loop.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport_srtp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport_udp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/vid_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-videodev/videodev.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/videodev.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-videodev/config.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-videodev/errno.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/vid_stream.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/vid_tee.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/wav_playlist.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/wav_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/wave.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/wsola.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/audio_codecs.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/passthrough.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/l16.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/ffmpeg_vid_codecs.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/gsm.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/speex.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/ilbc.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/g722.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/g7221.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/ipp_codecs.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/opencore_amr.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/vid_toolbox.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/openh264.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/silk.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/opus.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/bcg729.h \
+ /var/www/well/tests/pjmedia/include/pjmedia_videodev.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-videodev/videodev_imp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-videodev/avi_dev.h \
+ /var/www/well/tests/pjsip/include/pjsip_ua.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_inv.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_regc.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_replaces.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_xfer.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/evsub.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/types.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_100rel.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_timer.h \
+ /var/www/well/tests/pjsip/include/pjsip_simple.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/evsub_msg.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/iscomposing.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/xml.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/mwi.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/presence.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/pidf.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/xpidf.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/rpid.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/publish.h \
+ /var/www/well/tests/pjnath/include/pjnath.h \
+ /var/www/well/tests/pjnath/include/pjnath/nat_detect.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/errno.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/getopt.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/base64.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/crc32.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/hmac_md5.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/md5.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/hmac_sha1.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/sha1.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/srv_resolver.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/dns_server.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/string.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/json.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/stun_simple.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/pcap.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/http_client.h \
+ /var/www/well/tests/pjlib/include/pj/activesock.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/cli.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/cli_console.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/cli_imp.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/cli_telnet.h \
+ /var/www/well/tests/pjlib/include/pjlib.h \
+ /var/www/well/tests/pjlib/include/pj/addr_resolv.h \
+ /var/www/well/tests/pjlib/include/pj/array.h \
+ /var/www/well/tests/pjlib/include/pj/ctype.h \
+ /var/www/well/tests/pjlib/include/pj/compat/ctype.h /usr/include/ctype.h \
+ /var/www/well/tests/pjlib/include/pj/except.h \
+ /var/www/well/tests/pjlib/include/pj/compat/setjmp.h \
+ /usr/include/setjmp.h /usr/include/bits/setjmp.h \
+ /var/www/well/tests/pjlib/include/pj/log.h \
+ /var/www/well/tests/pjlib/include/pj/fifobuf.h \
+ /var/www/well/tests/pjlib/include/pj/file_access.h \
+ /var/www/well/tests/pjlib/include/pj/file_io.h \
+ /var/www/well/tests/pjlib/include/pj/guid.h \
+ /var/www/well/tests/pjlib/include/pj/hash.h \
+ /var/www/well/tests/pjlib/include/pj/ip_helper.h \
+ /var/www/well/tests/pjlib/include/pj/pool_buf.h \
+ /var/www/well/tests/pjlib/include/pj/rand.h \
+ /var/www/well/tests/pjlib/include/pj/rbtree.h \
+ /var/www/well/tests/pjlib/include/pj/sock_select.h \
+ /var/www/well/tests/pjlib/include/pj/unicode.h /usr/include/signal.h \
+ /usr/include/bits/signum.h /usr/include/bits/siginfo.h \
+ /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h \
+ /usr/include/bits/sigstack.h /usr/include/sys/ucontext.h \
+ /usr/include/bits/sigthread.h
+output/pjsua-x86_64-unknown-linux-gnu/pjsua_app.o: ../src/pjsua/pjsua_app.c ../src/pjsua/pjsua_app.h \
+ ../src/pjsua/pjsua_app_common.h \
+ /var/www/well/tests/pjsip/include/pjsua-lib/pjsua.h \
+ /var/www/well/tests/pjsip/include/pjsip.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_types.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_config.h \
+ /var/www/well/tests/pjlib/include/pj/types.h \
+ /var/www/well/tests/pjlib/include/pj/config.h \
+ /var/www/well/tests/pjlib/include/pj/compat/cc_gcc.h \
+ /var/www/well/tests/pjlib/include/pj/compat/os_auto.h \
+ /var/www/well/tests/pjlib/include/pj/compat/m_auto.h \
+ /var/www/well/tests/pjlib/include/pj/compat/size_t.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stddef.h \
+ /var/www/well/tests/pjlib/include/pj/config_site.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_autoconf.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_errno.h \
+ /var/www/well/tests/pjlib/include/pj/errno.h \
+ /var/www/well/tests/pjlib/include/pj/compat/errno.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stdarg.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_uri.h \
+ /var/www/well/tests/pjlib/include/pj/list.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/scanner.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/types.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/config.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/scanner_cis_bitwise.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_tel_uri.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_msg.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_multipart.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_parser.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_event.h \
+ /var/www/well/tests/pjlib/include/pj/timer.h \
+ /var/www/well/tests/pjlib/include/pj/lock.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_module.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_endpoint.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transport.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_resolve.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/resolver.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/dns.h \
+ /var/www/well/tests/pjlib/include/pj/sock.h \
+ /var/www/well/tests/pjlib/include/pj/ioqueue.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_util.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transport_udp.h \
+ /var/www/well/tests/pjlib/include/pj/sock_qos.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transport_loop.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transport_tcp.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transport_tls.h \
+ /var/www/well/tests/pjlib/include/pj/pool.h \
+ /var/www/well/tests/pjlib/include/pj/ssl_sock.h \
+ /var/www/well/tests/pjlib/include/pj/string.h \
+ /var/www/well/tests/pjlib/include/pj/compat/string.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/bits/string.h \
+ /usr/include/bits/string2.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/stdlib.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/sys/types.h \
+ /usr/include/time.h /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /var/www/well/tests/pjsip/include/pjsip/sip_auth.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_auth_msg.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_auth_aka.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transaction.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_ua_layer.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_dialog.h \
+ /var/www/well/tests/pjlib/include/pj/assert.h \
+ /var/www/well/tests/pjlib/include/pj/compat/assert.h \
+ /usr/include/assert.h /var/www/well/tests/pjmedia/include/pjmedia.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/alaw_ulaw.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/types.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/config.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/config_auto.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/avi_stream.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/clock.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/event.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/audiodev.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-audiodev/config.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-audiodev/errno.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/format.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/frame.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/signatures.h \
+ /var/www/well/tests/pjlib/include/pj/os.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/bidirectional.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/circbuf.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/codec.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/conference.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/converter.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/delaybuf.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/echo.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/echo_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/endpoint.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/sdp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/errno.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-audiodev/audiodev.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/g711.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/types.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/config.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/config_auto.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/jbuf.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/master_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/mem_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/null_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/plc.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/resample.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/rtcp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/rtcp_xr.h \
+ /var/www/well/tests/pjlib/include/pj/math.h \
+ /var/www/well/tests/pjlib/include/pj/compat/high_precision.h \
+ /usr/include/math.h /usr/include/bits/huge_val.h \
+ /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+ /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+ /usr/include/bits/mathinline.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/rtp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/sdp_neg.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/silencedet.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/sound.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/sound_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/splitcomb.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/stereo.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/stream.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/rtcp_fb.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/vid_codec.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/stream_common.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/tonegen.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport_adapter_sample.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport_ice.h \
+ /var/www/well/tests/pjnath/include/pjnath/ice_strans.h \
+ /var/www/well/tests/pjnath/include/pjnath/ice_session.h \
+ /var/www/well/tests/pjnath/include/pjnath/types.h \
+ /var/www/well/tests/pjnath/include/pjnath/config.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_session.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_msg.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_auth.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_config.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_transaction.h \
+ /var/www/well/tests/pjnath/include/pjnath/errno.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_sock.h \
+ /var/www/well/tests/pjnath/include/pjnath/turn_sock.h \
+ /var/www/well/tests/pjnath/include/pjnath/turn_session.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport_loop.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport_srtp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport_udp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/vid_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-videodev/videodev.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/videodev.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-videodev/config.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-videodev/errno.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/vid_stream.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/vid_tee.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/wav_playlist.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/wav_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/wave.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/wsola.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/audio_codecs.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/passthrough.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/l16.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/ffmpeg_vid_codecs.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/gsm.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/speex.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/ilbc.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/g722.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/g7221.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/ipp_codecs.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/opencore_amr.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/vid_toolbox.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/openh264.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/silk.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/opus.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/bcg729.h \
+ /var/www/well/tests/pjmedia/include/pjmedia_videodev.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-videodev/videodev_imp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-videodev/avi_dev.h \
+ /var/www/well/tests/pjsip/include/pjsip_ua.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_inv.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_regc.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_replaces.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_xfer.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/evsub.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/types.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_100rel.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_timer.h \
+ /var/www/well/tests/pjsip/include/pjsip_simple.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/evsub_msg.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/iscomposing.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/xml.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/mwi.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/presence.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/pidf.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/xpidf.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/rpid.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/publish.h \
+ /var/www/well/tests/pjnath/include/pjnath.h \
+ /var/www/well/tests/pjnath/include/pjnath/nat_detect.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/errno.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/getopt.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/base64.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/crc32.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/hmac_md5.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/md5.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/hmac_sha1.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/sha1.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/srv_resolver.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/dns_server.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/string.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/json.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/stun_simple.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/pcap.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/http_client.h \
+ /var/www/well/tests/pjlib/include/pj/activesock.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/cli.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/cli_console.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/cli_imp.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/cli_telnet.h \
+ /var/www/well/tests/pjlib/include/pjlib.h \
+ /var/www/well/tests/pjlib/include/pj/addr_resolv.h \
+ /var/www/well/tests/pjlib/include/pj/array.h \
+ /var/www/well/tests/pjlib/include/pj/ctype.h \
+ /var/www/well/tests/pjlib/include/pj/compat/ctype.h /usr/include/ctype.h \
+ /var/www/well/tests/pjlib/include/pj/except.h \
+ /var/www/well/tests/pjlib/include/pj/compat/setjmp.h \
+ /usr/include/setjmp.h /usr/include/bits/setjmp.h \
+ /var/www/well/tests/pjlib/include/pj/log.h \
+ /var/www/well/tests/pjlib/include/pj/fifobuf.h \
+ /var/www/well/tests/pjlib/include/pj/file_access.h \
+ /var/www/well/tests/pjlib/include/pj/file_io.h \
+ /var/www/well/tests/pjlib/include/pj/guid.h \
+ /var/www/well/tests/pjlib/include/pj/hash.h \
+ /var/www/well/tests/pjlib/include/pj/ip_helper.h \
+ /var/www/well/tests/pjlib/include/pj/pool_buf.h \
+ /var/www/well/tests/pjlib/include/pj/rand.h \
+ /var/www/well/tests/pjlib/include/pj/rbtree.h \
+ /var/www/well/tests/pjlib/include/pj/sock_select.h \
+ /var/www/well/tests/pjlib/include/pj/unicode.h
+output/pjsua-x86_64-unknown-linux-gnu/pjsua_app_cli.o: ../src/pjsua/pjsua_app_cli.c \
+ ../src/pjsua/pjsua_app_common.h \
+ /var/www/well/tests/pjsip/include/pjsua-lib/pjsua.h \
+ /var/www/well/tests/pjsip/include/pjsip.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_types.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_config.h \
+ /var/www/well/tests/pjlib/include/pj/types.h \
+ /var/www/well/tests/pjlib/include/pj/config.h \
+ /var/www/well/tests/pjlib/include/pj/compat/cc_gcc.h \
+ /var/www/well/tests/pjlib/include/pj/compat/os_auto.h \
+ /var/www/well/tests/pjlib/include/pj/compat/m_auto.h \
+ /var/www/well/tests/pjlib/include/pj/compat/size_t.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stddef.h \
+ /var/www/well/tests/pjlib/include/pj/config_site.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_autoconf.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_errno.h \
+ /var/www/well/tests/pjlib/include/pj/errno.h \
+ /var/www/well/tests/pjlib/include/pj/compat/errno.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stdarg.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_uri.h \
+ /var/www/well/tests/pjlib/include/pj/list.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/scanner.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/types.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/config.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/scanner_cis_bitwise.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_tel_uri.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_msg.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_multipart.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_parser.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_event.h \
+ /var/www/well/tests/pjlib/include/pj/timer.h \
+ /var/www/well/tests/pjlib/include/pj/lock.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_module.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_endpoint.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transport.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_resolve.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/resolver.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/dns.h \
+ /var/www/well/tests/pjlib/include/pj/sock.h \
+ /var/www/well/tests/pjlib/include/pj/ioqueue.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_util.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transport_udp.h \
+ /var/www/well/tests/pjlib/include/pj/sock_qos.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transport_loop.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transport_tcp.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transport_tls.h \
+ /var/www/well/tests/pjlib/include/pj/pool.h \
+ /var/www/well/tests/pjlib/include/pj/ssl_sock.h \
+ /var/www/well/tests/pjlib/include/pj/string.h \
+ /var/www/well/tests/pjlib/include/pj/compat/string.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/bits/string.h \
+ /usr/include/bits/string2.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/stdlib.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/sys/types.h \
+ /usr/include/time.h /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /var/www/well/tests/pjsip/include/pjsip/sip_auth.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_auth_msg.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_auth_aka.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transaction.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_ua_layer.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_dialog.h \
+ /var/www/well/tests/pjlib/include/pj/assert.h \
+ /var/www/well/tests/pjlib/include/pj/compat/assert.h \
+ /usr/include/assert.h /var/www/well/tests/pjmedia/include/pjmedia.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/alaw_ulaw.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/types.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/config.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/config_auto.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/avi_stream.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/clock.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/event.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/audiodev.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-audiodev/config.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-audiodev/errno.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/format.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/frame.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/signatures.h \
+ /var/www/well/tests/pjlib/include/pj/os.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/bidirectional.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/circbuf.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/codec.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/conference.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/converter.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/delaybuf.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/echo.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/echo_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/endpoint.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/sdp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/errno.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-audiodev/audiodev.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/g711.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/types.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/config.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/config_auto.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/jbuf.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/master_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/mem_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/null_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/plc.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/resample.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/rtcp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/rtcp_xr.h \
+ /var/www/well/tests/pjlib/include/pj/math.h \
+ /var/www/well/tests/pjlib/include/pj/compat/high_precision.h \
+ /usr/include/math.h /usr/include/bits/huge_val.h \
+ /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+ /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+ /usr/include/bits/mathinline.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/rtp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/sdp_neg.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/silencedet.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/sound.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/sound_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/splitcomb.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/stereo.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/stream.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/rtcp_fb.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/vid_codec.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/stream_common.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/tonegen.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport_adapter_sample.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport_ice.h \
+ /var/www/well/tests/pjnath/include/pjnath/ice_strans.h \
+ /var/www/well/tests/pjnath/include/pjnath/ice_session.h \
+ /var/www/well/tests/pjnath/include/pjnath/types.h \
+ /var/www/well/tests/pjnath/include/pjnath/config.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_session.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_msg.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_auth.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_config.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_transaction.h \
+ /var/www/well/tests/pjnath/include/pjnath/errno.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_sock.h \
+ /var/www/well/tests/pjnath/include/pjnath/turn_sock.h \
+ /var/www/well/tests/pjnath/include/pjnath/turn_session.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport_loop.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport_srtp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport_udp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/vid_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-videodev/videodev.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/videodev.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-videodev/config.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-videodev/errno.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/vid_stream.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/vid_tee.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/wav_playlist.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/wav_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/wave.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/wsola.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/audio_codecs.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/passthrough.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/l16.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/ffmpeg_vid_codecs.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/gsm.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/speex.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/ilbc.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/g722.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/g7221.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/ipp_codecs.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/opencore_amr.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/vid_toolbox.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/openh264.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/silk.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/opus.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/bcg729.h \
+ /var/www/well/tests/pjmedia/include/pjmedia_videodev.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-videodev/videodev_imp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-videodev/avi_dev.h \
+ /var/www/well/tests/pjsip/include/pjsip_ua.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_inv.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_regc.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_replaces.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_xfer.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/evsub.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/types.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_100rel.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_timer.h \
+ /var/www/well/tests/pjsip/include/pjsip_simple.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/evsub_msg.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/iscomposing.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/xml.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/mwi.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/presence.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/pidf.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/xpidf.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/rpid.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/publish.h \
+ /var/www/well/tests/pjnath/include/pjnath.h \
+ /var/www/well/tests/pjnath/include/pjnath/nat_detect.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/errno.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/getopt.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/base64.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/crc32.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/hmac_md5.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/md5.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/hmac_sha1.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/sha1.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/srv_resolver.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/dns_server.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/string.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/json.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/stun_simple.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/pcap.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/http_client.h \
+ /var/www/well/tests/pjlib/include/pj/activesock.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/cli.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/cli_console.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/cli_imp.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/cli_telnet.h \
+ /var/www/well/tests/pjlib/include/pjlib.h \
+ /var/www/well/tests/pjlib/include/pj/addr_resolv.h \
+ /var/www/well/tests/pjlib/include/pj/array.h \
+ /var/www/well/tests/pjlib/include/pj/ctype.h \
+ /var/www/well/tests/pjlib/include/pj/compat/ctype.h /usr/include/ctype.h \
+ /var/www/well/tests/pjlib/include/pj/except.h \
+ /var/www/well/tests/pjlib/include/pj/compat/setjmp.h \
+ /usr/include/setjmp.h /usr/include/bits/setjmp.h \
+ /var/www/well/tests/pjlib/include/pj/log.h \
+ /var/www/well/tests/pjlib/include/pj/fifobuf.h \
+ /var/www/well/tests/pjlib/include/pj/file_access.h \
+ /var/www/well/tests/pjlib/include/pj/file_io.h \
+ /var/www/well/tests/pjlib/include/pj/guid.h \
+ /var/www/well/tests/pjlib/include/pj/hash.h \
+ /var/www/well/tests/pjlib/include/pj/ip_helper.h \
+ /var/www/well/tests/pjlib/include/pj/pool_buf.h \
+ /var/www/well/tests/pjlib/include/pj/rand.h \
+ /var/www/well/tests/pjlib/include/pj/rbtree.h \
+ /var/www/well/tests/pjlib/include/pj/sock_select.h \
+ /var/www/well/tests/pjlib/include/pj/unicode.h
+output/pjsua-x86_64-unknown-linux-gnu/pjsua_app_common.o: ../src/pjsua/pjsua_app_common.c \
+ ../src/pjsua/pjsua_app_common.h \
+ /var/www/well/tests/pjsip/include/pjsua-lib/pjsua.h \
+ /var/www/well/tests/pjsip/include/pjsip.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_types.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_config.h \
+ /var/www/well/tests/pjlib/include/pj/types.h \
+ /var/www/well/tests/pjlib/include/pj/config.h \
+ /var/www/well/tests/pjlib/include/pj/compat/cc_gcc.h \
+ /var/www/well/tests/pjlib/include/pj/compat/os_auto.h \
+ /var/www/well/tests/pjlib/include/pj/compat/m_auto.h \
+ /var/www/well/tests/pjlib/include/pj/compat/size_t.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stddef.h \
+ /var/www/well/tests/pjlib/include/pj/config_site.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_autoconf.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_errno.h \
+ /var/www/well/tests/pjlib/include/pj/errno.h \
+ /var/www/well/tests/pjlib/include/pj/compat/errno.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stdarg.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_uri.h \
+ /var/www/well/tests/pjlib/include/pj/list.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/scanner.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/types.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/config.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/scanner_cis_bitwise.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_tel_uri.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_msg.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_multipart.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_parser.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_event.h \
+ /var/www/well/tests/pjlib/include/pj/timer.h \
+ /var/www/well/tests/pjlib/include/pj/lock.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_module.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_endpoint.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transport.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_resolve.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/resolver.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/dns.h \
+ /var/www/well/tests/pjlib/include/pj/sock.h \
+ /var/www/well/tests/pjlib/include/pj/ioqueue.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_util.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transport_udp.h \
+ /var/www/well/tests/pjlib/include/pj/sock_qos.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transport_loop.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transport_tcp.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transport_tls.h \
+ /var/www/well/tests/pjlib/include/pj/pool.h \
+ /var/www/well/tests/pjlib/include/pj/ssl_sock.h \
+ /var/www/well/tests/pjlib/include/pj/string.h \
+ /var/www/well/tests/pjlib/include/pj/compat/string.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/bits/string.h \
+ /usr/include/bits/string2.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/stdlib.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/sys/types.h \
+ /usr/include/time.h /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /var/www/well/tests/pjsip/include/pjsip/sip_auth.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_auth_msg.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_auth_aka.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transaction.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_ua_layer.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_dialog.h \
+ /var/www/well/tests/pjlib/include/pj/assert.h \
+ /var/www/well/tests/pjlib/include/pj/compat/assert.h \
+ /usr/include/assert.h /var/www/well/tests/pjmedia/include/pjmedia.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/alaw_ulaw.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/types.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/config.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/config_auto.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/avi_stream.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/clock.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/event.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/audiodev.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-audiodev/config.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-audiodev/errno.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/format.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/frame.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/signatures.h \
+ /var/www/well/tests/pjlib/include/pj/os.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/bidirectional.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/circbuf.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/codec.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/conference.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/converter.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/delaybuf.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/echo.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/echo_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/endpoint.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/sdp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/errno.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-audiodev/audiodev.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/g711.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/types.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/config.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/config_auto.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/jbuf.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/master_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/mem_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/null_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/plc.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/resample.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/rtcp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/rtcp_xr.h \
+ /var/www/well/tests/pjlib/include/pj/math.h \
+ /var/www/well/tests/pjlib/include/pj/compat/high_precision.h \
+ /usr/include/math.h /usr/include/bits/huge_val.h \
+ /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+ /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+ /usr/include/bits/mathinline.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/rtp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/sdp_neg.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/silencedet.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/sound.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/sound_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/splitcomb.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/stereo.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/stream.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/rtcp_fb.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/vid_codec.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/stream_common.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/tonegen.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport_adapter_sample.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport_ice.h \
+ /var/www/well/tests/pjnath/include/pjnath/ice_strans.h \
+ /var/www/well/tests/pjnath/include/pjnath/ice_session.h \
+ /var/www/well/tests/pjnath/include/pjnath/types.h \
+ /var/www/well/tests/pjnath/include/pjnath/config.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_session.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_msg.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_auth.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_config.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_transaction.h \
+ /var/www/well/tests/pjnath/include/pjnath/errno.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_sock.h \
+ /var/www/well/tests/pjnath/include/pjnath/turn_sock.h \
+ /var/www/well/tests/pjnath/include/pjnath/turn_session.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport_loop.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport_srtp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport_udp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/vid_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-videodev/videodev.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/videodev.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-videodev/config.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-videodev/errno.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/vid_stream.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/vid_tee.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/wav_playlist.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/wav_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/wave.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/wsola.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/audio_codecs.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/passthrough.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/l16.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/ffmpeg_vid_codecs.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/gsm.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/speex.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/ilbc.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/g722.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/g7221.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/ipp_codecs.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/opencore_amr.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/vid_toolbox.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/openh264.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/silk.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/opus.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/bcg729.h \
+ /var/www/well/tests/pjmedia/include/pjmedia_videodev.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-videodev/videodev_imp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-videodev/avi_dev.h \
+ /var/www/well/tests/pjsip/include/pjsip_ua.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_inv.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_regc.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_replaces.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_xfer.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/evsub.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/types.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_100rel.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_timer.h \
+ /var/www/well/tests/pjsip/include/pjsip_simple.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/evsub_msg.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/iscomposing.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/xml.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/mwi.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/presence.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/pidf.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/xpidf.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/rpid.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/publish.h \
+ /var/www/well/tests/pjnath/include/pjnath.h \
+ /var/www/well/tests/pjnath/include/pjnath/nat_detect.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/errno.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/getopt.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/base64.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/crc32.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/hmac_md5.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/md5.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/hmac_sha1.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/sha1.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/srv_resolver.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/dns_server.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/string.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/json.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/stun_simple.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/pcap.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/http_client.h \
+ /var/www/well/tests/pjlib/include/pj/activesock.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/cli.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/cli_console.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/cli_imp.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/cli_telnet.h \
+ /var/www/well/tests/pjlib/include/pjlib.h \
+ /var/www/well/tests/pjlib/include/pj/addr_resolv.h \
+ /var/www/well/tests/pjlib/include/pj/array.h \
+ /var/www/well/tests/pjlib/include/pj/ctype.h \
+ /var/www/well/tests/pjlib/include/pj/compat/ctype.h /usr/include/ctype.h \
+ /var/www/well/tests/pjlib/include/pj/except.h \
+ /var/www/well/tests/pjlib/include/pj/compat/setjmp.h \
+ /usr/include/setjmp.h /usr/include/bits/setjmp.h \
+ /var/www/well/tests/pjlib/include/pj/log.h \
+ /var/www/well/tests/pjlib/include/pj/fifobuf.h \
+ /var/www/well/tests/pjlib/include/pj/file_access.h \
+ /var/www/well/tests/pjlib/include/pj/file_io.h \
+ /var/www/well/tests/pjlib/include/pj/guid.h \
+ /var/www/well/tests/pjlib/include/pj/hash.h \
+ /var/www/well/tests/pjlib/include/pj/ip_helper.h \
+ /var/www/well/tests/pjlib/include/pj/pool_buf.h \
+ /var/www/well/tests/pjlib/include/pj/rand.h \
+ /var/www/well/tests/pjlib/include/pj/rbtree.h \
+ /var/www/well/tests/pjlib/include/pj/sock_select.h \
+ /var/www/well/tests/pjlib/include/pj/unicode.h
+output/pjsua-x86_64-unknown-linux-gnu/pjsua_app_config.o: ../src/pjsua/pjsua_app_config.c \
+ ../src/pjsua/pjsua_app_common.h \
+ /var/www/well/tests/pjsip/include/pjsua-lib/pjsua.h \
+ /var/www/well/tests/pjsip/include/pjsip.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_types.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_config.h \
+ /var/www/well/tests/pjlib/include/pj/types.h \
+ /var/www/well/tests/pjlib/include/pj/config.h \
+ /var/www/well/tests/pjlib/include/pj/compat/cc_gcc.h \
+ /var/www/well/tests/pjlib/include/pj/compat/os_auto.h \
+ /var/www/well/tests/pjlib/include/pj/compat/m_auto.h \
+ /var/www/well/tests/pjlib/include/pj/compat/size_t.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stddef.h \
+ /var/www/well/tests/pjlib/include/pj/config_site.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_autoconf.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_errno.h \
+ /var/www/well/tests/pjlib/include/pj/errno.h \
+ /var/www/well/tests/pjlib/include/pj/compat/errno.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stdarg.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_uri.h \
+ /var/www/well/tests/pjlib/include/pj/list.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/scanner.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/types.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/config.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/scanner_cis_bitwise.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_tel_uri.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_msg.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_multipart.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_parser.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_event.h \
+ /var/www/well/tests/pjlib/include/pj/timer.h \
+ /var/www/well/tests/pjlib/include/pj/lock.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_module.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_endpoint.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transport.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_resolve.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/resolver.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/dns.h \
+ /var/www/well/tests/pjlib/include/pj/sock.h \
+ /var/www/well/tests/pjlib/include/pj/ioqueue.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_util.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transport_udp.h \
+ /var/www/well/tests/pjlib/include/pj/sock_qos.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transport_loop.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transport_tcp.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transport_tls.h \
+ /var/www/well/tests/pjlib/include/pj/pool.h \
+ /var/www/well/tests/pjlib/include/pj/ssl_sock.h \
+ /var/www/well/tests/pjlib/include/pj/string.h \
+ /var/www/well/tests/pjlib/include/pj/compat/string.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/bits/string.h \
+ /usr/include/bits/string2.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/stdlib.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/sys/types.h \
+ /usr/include/time.h /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /var/www/well/tests/pjsip/include/pjsip/sip_auth.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_auth_msg.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_auth_aka.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transaction.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_ua_layer.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_dialog.h \
+ /var/www/well/tests/pjlib/include/pj/assert.h \
+ /var/www/well/tests/pjlib/include/pj/compat/assert.h \
+ /usr/include/assert.h /var/www/well/tests/pjmedia/include/pjmedia.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/alaw_ulaw.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/types.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/config.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/config_auto.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/avi_stream.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/clock.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/event.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/audiodev.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-audiodev/config.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-audiodev/errno.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/format.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/frame.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/signatures.h \
+ /var/www/well/tests/pjlib/include/pj/os.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/bidirectional.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/circbuf.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/codec.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/conference.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/converter.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/delaybuf.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/echo.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/echo_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/endpoint.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/sdp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/errno.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-audiodev/audiodev.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/g711.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/types.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/config.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/config_auto.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/jbuf.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/master_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/mem_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/null_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/plc.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/resample.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/rtcp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/rtcp_xr.h \
+ /var/www/well/tests/pjlib/include/pj/math.h \
+ /var/www/well/tests/pjlib/include/pj/compat/high_precision.h \
+ /usr/include/math.h /usr/include/bits/huge_val.h \
+ /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+ /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+ /usr/include/bits/mathinline.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/rtp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/sdp_neg.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/silencedet.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/sound.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/sound_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/splitcomb.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/stereo.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/stream.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/rtcp_fb.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/vid_codec.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/stream_common.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/tonegen.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport_adapter_sample.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport_ice.h \
+ /var/www/well/tests/pjnath/include/pjnath/ice_strans.h \
+ /var/www/well/tests/pjnath/include/pjnath/ice_session.h \
+ /var/www/well/tests/pjnath/include/pjnath/types.h \
+ /var/www/well/tests/pjnath/include/pjnath/config.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_session.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_msg.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_auth.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_config.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_transaction.h \
+ /var/www/well/tests/pjnath/include/pjnath/errno.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_sock.h \
+ /var/www/well/tests/pjnath/include/pjnath/turn_sock.h \
+ /var/www/well/tests/pjnath/include/pjnath/turn_session.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport_loop.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport_srtp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport_udp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/vid_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-videodev/videodev.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/videodev.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-videodev/config.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-videodev/errno.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/vid_stream.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/vid_tee.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/wav_playlist.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/wav_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/wave.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/wsola.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/audio_codecs.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/passthrough.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/l16.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/ffmpeg_vid_codecs.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/gsm.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/speex.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/ilbc.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/g722.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/g7221.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/ipp_codecs.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/opencore_amr.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/vid_toolbox.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/openh264.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/silk.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/opus.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/bcg729.h \
+ /var/www/well/tests/pjmedia/include/pjmedia_videodev.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-videodev/videodev_imp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-videodev/avi_dev.h \
+ /var/www/well/tests/pjsip/include/pjsip_ua.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_inv.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_regc.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_replaces.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_xfer.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/evsub.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/types.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_100rel.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_timer.h \
+ /var/www/well/tests/pjsip/include/pjsip_simple.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/evsub_msg.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/iscomposing.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/xml.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/mwi.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/presence.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/pidf.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/xpidf.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/rpid.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/publish.h \
+ /var/www/well/tests/pjnath/include/pjnath.h \
+ /var/www/well/tests/pjnath/include/pjnath/nat_detect.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/errno.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/getopt.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/base64.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/crc32.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/hmac_md5.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/md5.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/hmac_sha1.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/sha1.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/srv_resolver.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/dns_server.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/string.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/json.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/stun_simple.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/pcap.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/http_client.h \
+ /var/www/well/tests/pjlib/include/pj/activesock.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/cli.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/cli_console.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/cli_imp.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/cli_telnet.h \
+ /var/www/well/tests/pjlib/include/pjlib.h \
+ /var/www/well/tests/pjlib/include/pj/addr_resolv.h \
+ /var/www/well/tests/pjlib/include/pj/array.h \
+ /var/www/well/tests/pjlib/include/pj/ctype.h \
+ /var/www/well/tests/pjlib/include/pj/compat/ctype.h /usr/include/ctype.h \
+ /var/www/well/tests/pjlib/include/pj/except.h \
+ /var/www/well/tests/pjlib/include/pj/compat/setjmp.h \
+ /usr/include/setjmp.h /usr/include/bits/setjmp.h \
+ /var/www/well/tests/pjlib/include/pj/log.h \
+ /var/www/well/tests/pjlib/include/pj/fifobuf.h \
+ /var/www/well/tests/pjlib/include/pj/file_access.h \
+ /var/www/well/tests/pjlib/include/pj/file_io.h \
+ /var/www/well/tests/pjlib/include/pj/guid.h \
+ /var/www/well/tests/pjlib/include/pj/hash.h \
+ /var/www/well/tests/pjlib/include/pj/ip_helper.h \
+ /var/www/well/tests/pjlib/include/pj/pool_buf.h \
+ /var/www/well/tests/pjlib/include/pj/rand.h \
+ /var/www/well/tests/pjlib/include/pj/rbtree.h \
+ /var/www/well/tests/pjlib/include/pj/sock_select.h \
+ /var/www/well/tests/pjlib/include/pj/unicode.h
+output/pjsua-x86_64-unknown-linux-gnu/pjsua_app_legacy.o: ../src/pjsua/pjsua_app_legacy.c \
+ /var/www/well/tests/pjsip/include/pjsua-lib/pjsua.h \
+ /var/www/well/tests/pjsip/include/pjsip.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_types.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_config.h \
+ /var/www/well/tests/pjlib/include/pj/types.h \
+ /var/www/well/tests/pjlib/include/pj/config.h \
+ /var/www/well/tests/pjlib/include/pj/compat/cc_gcc.h \
+ /var/www/well/tests/pjlib/include/pj/compat/os_auto.h \
+ /var/www/well/tests/pjlib/include/pj/compat/m_auto.h \
+ /var/www/well/tests/pjlib/include/pj/compat/size_t.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stddef.h \
+ /var/www/well/tests/pjlib/include/pj/config_site.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_autoconf.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_errno.h \
+ /var/www/well/tests/pjlib/include/pj/errno.h \
+ /var/www/well/tests/pjlib/include/pj/compat/errno.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stdarg.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_uri.h \
+ /var/www/well/tests/pjlib/include/pj/list.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/scanner.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/types.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/config.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/scanner_cis_bitwise.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_tel_uri.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_msg.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_multipart.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_parser.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_event.h \
+ /var/www/well/tests/pjlib/include/pj/timer.h \
+ /var/www/well/tests/pjlib/include/pj/lock.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_module.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_endpoint.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transport.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_resolve.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/resolver.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/dns.h \
+ /var/www/well/tests/pjlib/include/pj/sock.h \
+ /var/www/well/tests/pjlib/include/pj/ioqueue.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_util.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transport_udp.h \
+ /var/www/well/tests/pjlib/include/pj/sock_qos.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transport_loop.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transport_tcp.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transport_tls.h \
+ /var/www/well/tests/pjlib/include/pj/pool.h \
+ /var/www/well/tests/pjlib/include/pj/ssl_sock.h \
+ /var/www/well/tests/pjlib/include/pj/string.h \
+ /var/www/well/tests/pjlib/include/pj/compat/string.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/bits/string.h \
+ /usr/include/bits/string2.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/stdlib.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/sys/types.h \
+ /usr/include/time.h /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /var/www/well/tests/pjsip/include/pjsip/sip_auth.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_auth_msg.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_auth_aka.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_transaction.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_ua_layer.h \
+ /var/www/well/tests/pjsip/include/pjsip/sip_dialog.h \
+ /var/www/well/tests/pjlib/include/pj/assert.h \
+ /var/www/well/tests/pjlib/include/pj/compat/assert.h \
+ /usr/include/assert.h /var/www/well/tests/pjmedia/include/pjmedia.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/alaw_ulaw.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/types.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/config.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/config_auto.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/avi_stream.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/clock.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/event.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/audiodev.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-audiodev/config.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-audiodev/errno.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/format.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/frame.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/signatures.h \
+ /var/www/well/tests/pjlib/include/pj/os.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/bidirectional.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/circbuf.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/codec.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/conference.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/converter.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/delaybuf.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/echo.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/echo_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/endpoint.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/sdp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/errno.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-audiodev/audiodev.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/g711.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/types.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/config.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/config_auto.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/jbuf.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/master_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/mem_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/null_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/plc.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/resample.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/rtcp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/rtcp_xr.h \
+ /var/www/well/tests/pjlib/include/pj/math.h \
+ /var/www/well/tests/pjlib/include/pj/compat/high_precision.h \
+ /usr/include/math.h /usr/include/bits/huge_val.h \
+ /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+ /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+ /usr/include/bits/mathinline.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/rtp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/sdp_neg.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/silencedet.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/sound.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/sound_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/splitcomb.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/stereo.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/stream.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/rtcp_fb.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/vid_codec.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/stream_common.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/tonegen.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport_adapter_sample.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport_ice.h \
+ /var/www/well/tests/pjnath/include/pjnath/ice_strans.h \
+ /var/www/well/tests/pjnath/include/pjnath/ice_session.h \
+ /var/www/well/tests/pjnath/include/pjnath/types.h \
+ /var/www/well/tests/pjnath/include/pjnath/config.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_session.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_msg.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_auth.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_config.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_transaction.h \
+ /var/www/well/tests/pjnath/include/pjnath/errno.h \
+ /var/www/well/tests/pjnath/include/pjnath/stun_sock.h \
+ /var/www/well/tests/pjnath/include/pjnath/turn_sock.h \
+ /var/www/well/tests/pjnath/include/pjnath/turn_session.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport_loop.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport_srtp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/transport_udp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/vid_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-videodev/videodev.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/videodev.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-videodev/config.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-videodev/errno.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/vid_stream.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/vid_tee.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/wav_playlist.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/wav_port.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/wave.h \
+ /var/www/well/tests/pjmedia/include/pjmedia/wsola.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/audio_codecs.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/passthrough.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/l16.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/ffmpeg_vid_codecs.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/gsm.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/speex.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/ilbc.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/g722.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/g7221.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/ipp_codecs.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/opencore_amr.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/vid_toolbox.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/openh264.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/silk.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/opus.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-codec/bcg729.h \
+ /var/www/well/tests/pjmedia/include/pjmedia_videodev.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-videodev/videodev_imp.h \
+ /var/www/well/tests/pjmedia/include/pjmedia-videodev/avi_dev.h \
+ /var/www/well/tests/pjsip/include/pjsip_ua.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_inv.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_regc.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_replaces.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_xfer.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/evsub.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/types.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_100rel.h \
+ /var/www/well/tests/pjsip/include/pjsip-ua/sip_timer.h \
+ /var/www/well/tests/pjsip/include/pjsip_simple.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/evsub_msg.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/iscomposing.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/xml.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/mwi.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/presence.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/pidf.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/xpidf.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/rpid.h \
+ /var/www/well/tests/pjsip/include/pjsip-simple/publish.h \
+ /var/www/well/tests/pjnath/include/pjnath.h \
+ /var/www/well/tests/pjnath/include/pjnath/nat_detect.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/errno.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/getopt.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/base64.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/crc32.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/hmac_md5.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/md5.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/hmac_sha1.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/sha1.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/srv_resolver.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/dns_server.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/string.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/json.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/stun_simple.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/pcap.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/http_client.h \
+ /var/www/well/tests/pjlib/include/pj/activesock.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/cli.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/cli_console.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/cli_imp.h \
+ /var/www/well/tests/pjlib-util/include/pjlib-util/cli_telnet.h \
+ /var/www/well/tests/pjlib/include/pjlib.h \
+ /var/www/well/tests/pjlib/include/pj/addr_resolv.h \
+ /var/www/well/tests/pjlib/include/pj/array.h \
+ /var/www/well/tests/pjlib/include/pj/ctype.h \
+ /var/www/well/tests/pjlib/include/pj/compat/ctype.h /usr/include/ctype.h \
+ /var/www/well/tests/pjlib/include/pj/except.h \
+ /var/www/well/tests/pjlib/include/pj/compat/setjmp.h \
+ /usr/include/setjmp.h /usr/include/bits/setjmp.h \
+ /var/www/well/tests/pjlib/include/pj/log.h \
+ /var/www/well/tests/pjlib/include/pj/fifobuf.h \
+ /var/www/well/tests/pjlib/include/pj/file_access.h \
+ /var/www/well/tests/pjlib/include/pj/file_io.h \
+ /var/www/well/tests/pjlib/include/pj/guid.h \
+ /var/www/well/tests/pjlib/include/pj/hash.h \
+ /var/www/well/tests/pjlib/include/pj/ip_helper.h \
+ /var/www/well/tests/pjlib/include/pj/pool_buf.h \
+ /var/www/well/tests/pjlib/include/pj/rand.h \
+ /var/www/well/tests/pjlib/include/pj/rbtree.h \
+ /var/www/well/tests/pjlib/include/pj/sock_select.h \
+ /var/www/well/tests/pjlib/include/pj/unicode.h \
+ ../src/pjsua/pjsua_app_common.h
+../bin/pjsua-x86_64-unknown-linux-gnu: /var/www/well/tests/pjsip/lib/libpjsua-x86_64-unknown-linux-gnu.a /var/www/well/tests/pjsip/lib/libpjsip-ua-x86_64-unknown-linux-gnu.a /var/www/well/tests/pjsip/lib/libpjsip-simple-x86_64-unknown-linux-gnu.a /var/www/well/tests/pjsip/lib/libpjsip-x86_64-unknown-linux-gnu.a /var/www/well/tests/pjmedia/lib/libpjmedia-codec-x86_64-unknown-linux-gnu.a /var/www/well/tests/pjmedia/lib/libpjmedia-videodev-x86_64-unknown-linux-gnu.a /var/www/well/tests/pjmedia/lib/libpjmedia-x86_64-unknown-linux-gnu.a /var/www/well/tests/pjmedia/lib/libpjmedia-audiodev-x86_64-unknown-linux-gnu.a /var/www/well/tests/pjnath/lib/libpjnath-x86_64-unknown-linux-gnu.a /var/www/well/tests/pjlib-util/lib/libpjlib-util-x86_64-unknown-linux-gnu.a  /var/www/well/tests/third_party/lib/libsrtp-x86_64-unknown-linux-gnu.a /var/www/well/tests/third_party/lib/libresample-x86_64-unknown-linux-gnu.a /var/www/well/tests/third_party/lib/libgsmcodec-x86_64-unknown-linux-gnu.a /var/www/well/tests/third_party/lib/libspeex-x86_64-unknown-linux-gnu.a /var/www/well/tests/third_party/lib/libilbccodec-x86_64-unknown-linux-gnu.a /var/www/well/tests/third_party/lib/libg7221codec-x86_64-unknown-linux-gnu.a /var/www/well/tests/third_party/lib/libyuv-x86_64-unknown-linux-gnu.a /var/www/well/tests/third_party/lib/libwebrtc-x86_64-unknown-linux-gnu.a /var/www/well/tests/pjlib/lib/libpj-x86_64-unknown-linux-gnu.a
